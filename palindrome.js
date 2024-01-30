@@ -3,7 +3,11 @@
 function palindrome(texto) {
     // Compruebo si "text" es un string
     if (typeof texto === "string") {
-        const formattedText = texto.toLowerCase().replaceAll(' ', '');
+        
+
+        const accents = 'áeíóú';
+        const vowels ='aeiuo'
+        let formattedText = texto.toLowerCase().replaceAll(' ', '');
 
         // Recorro la cadena de texto
         for ( let index=0;index < formattedText.length;index++) {
