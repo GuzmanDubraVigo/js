@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function sortStrings(a, b) {
     const string1 = a.toLowerCase();
     const string2 = b.toLowerCase();
@@ -11,3 +12,8 @@ function sortStrings(a, b) {
   const sortedArrayOfTitles = arrayOfTitles.sort(sortStrings);
   
   showContent(10, sortedArrayOfTitles);
+=======
+console.clear();
+
+
+>>>>>>> 6ad2ac1e7351351b53e2993c92817bf6c1796ab0
